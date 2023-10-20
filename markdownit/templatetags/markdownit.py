@@ -5,6 +5,6 @@ register = template.Library()
 
 
 @register.filter
-def markdown(text: str):
+def markdownit(text: str):
     md = MarkdownIt()
     return md.render(text)
