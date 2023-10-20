@@ -1,6 +1,6 @@
 # django-markdown-it
 
-Markdown template filter for Django following [CommonMark](https://commonmark.org/) specs and using [markdown-it-py](https://github.com/executablebooks/markdown-it-py) under the hood.
+Markdown template filter for Django following [CommonMark](https://commonmark.org/) specs.
 
 ## Installation
 
@@ -40,4 +40,6 @@ Markdown template filter for Django following [CommonMark](https://commonmark.or
 
 ## Credits
 
-Inspired by [django-markdownify](https://github.com/erwinmatijsen/django-markdownify/).
+- Inspired by [django-markdownify](https://github.com/erwinmatijsen/django-markdownify/).
+- Using [markdown-it-py](https://github.com/executablebooks/markdown-it-py) for Markdown rendering.
+- Using [nh3](https://github.com/messense/nh3)/[ammonia](https://github.com/rust-ammonia/ammonia) for HTML sanitization.
