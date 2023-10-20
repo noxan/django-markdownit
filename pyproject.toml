@@ -5,6 +5,7 @@ description = "Markdown template filter for Django following CommonMark specs an
 authors = ["Richard <richard@stromer.org>"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "markdownit" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
