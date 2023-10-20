@@ -12,6 +12,7 @@ classifiers = ["Framework :: Django", "Environment :: Web Environment"]
 python = "^3.11"
 markdown-it-py = "^3.0.0"
 django = "^4.2.6"
+nh3 = "^0.2.14"
 
 
 [tool.poetry.group.dev.dependencies]
