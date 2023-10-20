@@ -6,6 +6,7 @@ authors = ["Richard <richard@stromer.org>"]
 license = "MIT"
 readme = "README.md"
 packages = [{ include = "markdownit" }]
+classifiers = ["Framework :: Django", "Environment :: Web Environment"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
