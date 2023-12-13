@@ -6,6 +6,7 @@ authors = ["Richard <richard@stromer.org>"]
 license = "MIT"
 readme = "README.md"
 packages = [{ include = "markdownit" }]
+repository = "https://github.com/noxan/django-markdown-it"
 classifiers = ["Framework :: Django", "Environment :: Web Environment"]
 
 [tool.poetry.dependencies]
