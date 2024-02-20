@@ -11,15 +11,15 @@ keywords = ["django", "markdown", "commonmark"]
 classifiers = ["Framework :: Django", "Environment :: Web Environment"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 markdown-it-py = "^3.0.0"
 django = ">=4.0"
 nh3 = "^0.2.14"
 
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.1.1"
-black = "^23.10.0"
+ruff = "^0.2.2"
+black = "^24.2.0"
 
 [build-system]
 requires = ["poetry-core"]
