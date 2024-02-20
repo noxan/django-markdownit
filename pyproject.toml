@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-markdown-it"
-version = "0.4.0"
+version = "0.4.1"
 description = "Markdown template filter for Django following CommonMark specs (markdown-it-py)."
 authors = ["Richard <richard@stromer.org>"]
 license = "MIT"
