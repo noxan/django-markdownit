@@ -1,4 +1,4 @@
-# django-markdown-it
+# django-markdownit
 
 Markdown template filter for Django following [CommonMark](https://commonmark.org/) specs.
 
@@ -7,11 +7,11 @@ Markdown template filter for Django following [CommonMark](https://commonmark.or
 1. Install the package:
 
     ```bash
-    poetry add django-markdown-it
+    poetry add django-markdownit
     ```
     or using pip:
     ```bash
-    pip install django-markdown-it
+    pip install django-markdownit
     ```
 
 2. Add `markdownit` to your `INSTALLED_APPS`:
