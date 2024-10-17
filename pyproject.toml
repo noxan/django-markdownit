@@ -17,7 +17,7 @@ django = ">=4.0"
 nh3 = "^0.2.14"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.6.3"
+ruff = ">=0.6.3,<0.8.0"
 
 [build-system]
 requires = ["poetry-core"]
